@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contact{
+    position: relative;
+    background-color: goldenrod;
+    height: 50px;
+}
+
+.contact ul{
+    position: absolute;
+    top: 15px;
+    list-style: none;
+}
+
+.contact ul li{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    
+}
+nav{
+    position: relative;
+    height: 80px;
+    background-color: grey;
+}
+
+nav img{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+nav ul{
+    position: absolute;
+    left: 60%;
+    list-style: none;
+    top: 30px;
+    font-size: 22px;
+    color: white;
+}
+
+nav ul li{
+    position: relative;
+    float: left;
+    margin-left: 50px ;
+}
+
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./slider.jpg);
+    background-size: 100% 100%;
+    height: 600px;  
+    text-align: center; 
+    position: relative;
+}
+
+
+.main h3{
+    color: skyblue;
+    position: relative;
+    top: 100px;
+    opacity: 0.8;
+
+
+}
+
+.main h2{
+    color: skyblue;
+    position: relative;
+    font-size: 80px;
+    top: 130px;
+    opacity: 0.8;
+
+}
+
+.main h1{
+    color: yellow;
+    position: relative;
+    font-size: 80px;
+    top: 150px;
+    opacity: 0.8;
+
+}
+
+.main p{
+    color: skyblue;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    opacity: 0.8;
+
+    
+}
+.main button{
+    background-color: yellow;
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+    border-style: none;
+    top: 250px;
+    margin-left: 50px;
+    opacity: 0.8;
+
+}
+
+/*-------------- mid main section ---------------*/
+
+
+.container{
+    height: 500px;
+}
+.mid_left{
+    height: 500px;
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.mid_right{
+    height: 500px;
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+
+.mid_left h2{
+    font-size: 36px;
+    color: yellow;
+    text-transform: uppercase;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+}
+
+.mid_left h3{
+    font-size: 30px;
+    color: blue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+}
+
+.mid_left p{
+    position: relative;
+    top: 80px;
+    left: 50px;
+    max-width: 550px;
+}
+
+.mid_left>p~p{
+    position: relative;
+    top:100px;
+}
+
+.mid_left button{
+    background-color: yellow;
+    position: relative;
+    padding: 10px 18px;
+    border-radius: 30px;
+    border-style: none;
+    top: 150px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.mid_right .image1{
+    background-image: url(../construction/about.png);
+    position: relative;
+    height: 300px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    top: 100px;
+    background-position: center;
+}
+
+.mid_right>img{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    height: 400px;
+}
+
+
+/*--------------------- about ---------------*/
+
+
+.about{
+    position: relative;
+    height: 600px;
+    width: 90%;
+    background-color: #D8F2FF;
+    opacity: .6;
+    left: 70px
+}
+
+.about>h1{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    text-transform: uppercase;
+}
+
+.about>p{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.card{
+    position: relative;
+    float: left;
+    height: 300px;
+    width: 200px;
+    top: 120px;
+    margin-left: 100px;
+    text-align: center;
+    
+}
+
+.card>h3{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.card>img{
+    position: relative;
+    left: -15px;
+
+
+}
+
+.card>p{
+    position: relative;
+    font-size: 13px;
+    top: 20px
+}
+
+
+/*--------------------- post ---------------*/
+
+#post_container{
+    position: relative;
+    height: 650px;
+}
+
+.recent_post{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50px;
+}
+
+.post_section{
+    height: 500px;
+    width: 400px;
+    background-image: url(./service.jpg);
+    position: relative;
+    float: left;
+    top: 100px;
+    margin-left: 25px;
+    color: blue;
+}
+
+
+.tag2{
+    height: 250px;
+    width: 450px;
+    background-image: url(./service2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    
+}
+
+.tag3{
+   height: 250px;
+    width: 450px;
+    background-image: url(./service3.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    
+
+}
+
+.post_section h5{
+    top: 300px;
+    position:absolute;
+    font-size: 17px;
+
+}
+
+.post_section>p{
+    top: 350px;
+    position:relative;
+
+}
+
+.post_section>button{
+    top: 380px;
+    position:relative;
+    background-color: yellow;
+    padding: 10px 18px;
+    border-radius: 30px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+
+}
+
+.post_section>button:hover{
+    background-color: blueviolet;
+}
+
+
+/*--------------------- projects ---------------*/
+
+.project_container{
+    position: relative;
+    background-image: linear-gradient(rgba(250, 250, 55, 0.8), rgba(250, 250, 55, 0.8)), url(./portf.jpg);
+    height: 850px;
+}
+
+.project_container>h1{
+    position: relative;
+    text-align: center;
+    top: 80px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.project_container>p{
+    position: relative;
+    text-align: center;
+    max-width: 60%;
+    top: 120px;
+    margin: 0 auto;
+    color: white;
+}
+
+
+.project_container>ul{
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.project_container ul li{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    padding: 10px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+
+.project_container ul li:hover{
+    color: white;
+    background-color:  blue;
+ 
+    
+    
+}
+
+.project_image{
+    position: relative;
+    float: left;
+    margin: 10px;
+    top: 250px;
+    left: 100px;
+    background-size: 100% 100%;
+}
+
+.pic1{
+    height: 460px;
+    width: 500px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(./highlit.jpg);
+    
+}
+
+.pic2{
+    height: 220px;
+    width: 300px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(./im2.jpg);
+
+}
+
+.pic3{
+    height: 220px;
+    width: 300px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(./im3.jpg);
+
+}
+
+.pic4{
+    height: 220px;
+    width: 300px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(./im4.jpg);
+
+}
+
+.pic5{
+    height: 220px;
+    width: 300px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(./im5.jpg);
+
+}
+
+
+/*--------------------- Review ---------------*/
+
+
+.review_container{
+    position: relative;
+    height: 670px;
+}
+
+.review_container>h1{
+    position: relative;
+    text-align: center;
+    top: 80px;
+    text-transform: uppercase;
+}
+
+.review_container>p{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    max-width: 1000px;
+    left: 15%;
+
+}
+
+.review_client{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-color: lightblue;
+    float: left;
+    margin-left: 180px;
+    top: 200px;
+    border-radius: 30px;
+}
+
+.review_client>h1{
+    font-size: 90px;
+    position: relative;
+    left: 20px
+    ;
+
+}
+
+.review_client>p{
+    font-size: 12px;
+    position: absolute;
+    left: 5px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 240px;
+    top: 75px;
+
+}
+
+.review_client>img{
+    position: relative;
+    top: 180px;
+    left: 75px;
+}
+
+
+.review_client>h2{
+    text-align: center;
+    position: relative;
+    top: 190px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+/*--------------------- Customer service ---------------*/
+
+.customer_service_container{
+    position: relative;
+    height: 180px;
+}
+
+
+
+.cust_service_left_container{
+    position: relative;
+    background-color: yellow;
+    height: 180px;
+    width: 50%;
+    text-transform: uppercase;
+    float: left;
+}
+
+.cust_service_left_container>h1{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.cust_service_left_container>h2{
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+
+.cust_service_right_container{
+    position: relative;
+    background-color: yellow;
+    height: 180px;
+    width: 50%;
+    float: left;
+}
+
+.cust_service_right_container>input{   
+
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    top: 50px;
+    margin-left: 50px;
+    border-style: none;
+    padding-left: 20px;
+}
+
+
+#message{
+    position: relative;
+    top: 80px;
+    width: 420px;
+}
+
+.cust_service_right_container>button{
+    position: relative;
+    top: 108px;
+    left: -80px;
+    background-color: blue;
+    padding: 6px 18px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+.cust_service_right_container>button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+    /*------------------------------------footer------------------*/
+
+
+footer{
+    position: relative;
+    height: 500px;
+    background-image:url(./footer_bg.jpg);
+}
+
+footer img{
+    position: relative;
+    width: 100.2%;
+    opacity: 0.8;
+}
+
+.end_section{
+    position: relative;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    color:white;
+
+}
+
+.end_section>h3{
+    position: relative;
+    top: 15px;
+}
+
+    /*------------------------------------END------------------*/
